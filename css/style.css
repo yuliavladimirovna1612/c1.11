@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap);
+
+.wrapper {
+  text-align: center;
+  background-color: rgb(135, 110, 215);
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 100;
+}
+ 
+.timer_title {
+  color: white;
+  font-weight: 100;
+  font-size: 60px;
+  margin: 40px 0px 20px;
+}
+ 
+.timer_time {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+ 
+.timer_text {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.timer_wrap {
+  margin-right: 20px;
+  background: #633084;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+}
+
+.timer_time-block {
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #B07BF9;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+ 
+.control-panel_btn {
+  border-radius: 5px;
+} 
+
+.timer_control-block {
+  display: flex;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 5px 5px;
+  justify-content: center;
+}
+ 
+.timer_btn {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px 5px;
+}
+
+.message{
+  color: #FAE500;
+  font-weight: 800;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+button{
+  margin-top: 30px;
+  padding: 8px 10px;
+  border: 2px solid rgb(65, 44, 132);
+  background-color: white;
+} 
